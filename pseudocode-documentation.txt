@@ -1,0 +1,40 @@
+Start program
+
+Create a stack
+Create a queue
+
+Ask user to enter a line of text
+Read the full line
+
+Create empty string for processed text
+
+For each character in the line
+    If the character is a letter or number
+        Convert it to lowercase
+        Add it to processed text
+        Push it onto the stack
+        Add it to the queue
+    End if
+End for
+
+Set palindrome to true
+
+While stack is not empty and queue is not empty
+    Remove a character from the stack
+    Remove a character from the queue
+
+    If the characters are not equal
+        Set palindrome to false
+    End if
+End while
+
+Print original text
+Print processed text
+
+If palindrome is true
+    Print "This is a palindrome"
+Else
+    Print "This is not a palindrome"
+End if
+
+End program
